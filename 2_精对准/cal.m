@@ -1,0 +1,19 @@
+format long;
+load data.mat;
+
+t = data0(:,1);
+lon = 114.0248136140;
+lat = 30.541093;
+h = 76.3604;
+
+% 粗对准得到转换矩阵
+data = data0(1:10000, 2:7);
+data = sum(data);
+dt = 12000;
+[Cbn, angle] = CoarseAlig(data, dt, lat, lon, h);
+
+% 精对准
+dV = result(:, 5:6);
+[dangle] = Alig( dV, lat, h, Cbn );
+dangle = dangle * 180 / pi;
+display(dangel);

@@ -1,0 +1,37 @@
+﻿生成启动时间为 2018/9/28 20:07:24。
+     1>项目“E:\研究生课程\INS\pureINS_c\pureINS_c\pureINS_c.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\pureINS_c.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt pro.c
+         pro.c
+     1>e:\研究生课程\ins\pureins_c\pureins_c\pro.c(10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\研究生课程\ins\pureins_c\pureins_c\pro.c(93): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\研究生课程\ins\pureins_c\pureins_c\pro.c(116): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\研究生课程\ins\pureins_c\pureins_c\pro.c(143): warning C4101: “nepoch”: 未引用的局部变量
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\研究生课程\INS\pureINS_c\Debug\pureINS_c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\pureINS_c.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\研究生课程\INS\pureINS_c\Debug\pureINS_c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\研究生课程\INS\pureINS_c\Debug\pureINS_c.lib" /MACHINE:X86 Debug\pureINS_c.exe.embed.manifest.res
+         Debug\global_variables.obj
+         Debug\ins.obj
+         Debug\main.obj
+         Debug\pro.obj
+         Debug\vec.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\pureINS_c.exe.embed.manifest" /manifest Debug\pureINS_c.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         pureINS_c.vcxproj -> E:\研究生课程\INS\pureINS_c\Debug\pureINS_c.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\pureINS_c.unsuccessfulbuild”。
+         正在对“Debug\pureINS_c.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\研究生课程\INS\pureINS_c\pureINS_c\pureINS_c.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.65

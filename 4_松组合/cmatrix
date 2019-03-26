@@ -1,0 +1,51 @@
+//////////////////////////////////////////////////////
+// Matrix TCL Pro 2.2
+// Copyright (c) 2000-2011 Techsoft. All Rights Reserved.
+// File name: CMatrix - The main header file to be included
+// Web: http://www.techsoftpl.com/matrix/
+//
+#ifndef _CMATRIX_12a08ba0_8940_11d3_910c_002018382069_INCLUDED
+#define _CMATRIX_12a08ba0_8940_11d3_910c_002018382069_INCLUDED
+
+// For MFC projects in VC ++ !!!
+#if defined(max) || defined(min)
+#undef max
+#undef min
+#endif
+
+#if defined(abs)
+#undef abs
+#endif
+
+#include <cmath>
+#include <valarray>
+#include <complex>
+#include <limits>
+#include <stdexcept>
+#include <algorithm>
+#include <iomanip>
+
+#if defined(_MSC_VER)
+#define _TS_NO_MEMBER_TEMPLATES
+#endif
+
+#if defined(DEBUG) || defined(_DEBUG)
+#define RANGE_CHECK_
+#endif
+
+#ifndef MAX_MATRIX_CACHE
+#define MAX_MATRIX_CACHE    4
+#endif
+
+#if defined(__BORLANDC__)
+#pragma option push -w-inl -w-pch
+#endif
+
+#include "matrix2.hxx"
+
+#if defined(__BORLANDC__)
+#pragma option pop
+#endif
+
+#endif // _CMATRIX
+
